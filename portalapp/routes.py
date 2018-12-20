@@ -6,6 +6,8 @@ from portalapp import app
 # Index page must provide to user choose between 2 option : Create new
 # or Upload to exist repository
 
+@app.route('/connector')
+
 @app.route('/uploader')
 
 @app.route('/create')
